@@ -193,17 +193,17 @@ h3 {
 }
 
 .benefits h3 {
-    width: 493px;
+    max-width: 493px;
     margin: 150px 0 30px;
 }
 
 .benefits .paragraph {
-    width: 491px;
+    max-width: 491px;
     margin-bottom: 36px;
 }
 
 .benefit-item:nth-child(2) h3 { 
-    width: 380px;
+    max-width: 380px;
 }
 
 .localize-fields {
@@ -273,7 +273,7 @@ h4 {
 }
 
 .productivity .paragraph {
-    width: 410px;
+    max-width: 410px;
     margin-bottom: 25px;
 }
 
@@ -509,10 +509,6 @@ h2 {
 
     .benefits h3 {
         margin-top: 50px;
-    }
-
-    .benefit-item:nth-child(2) h3 {
-        width: 493px;
     }
 
     .btn-link {
@@ -777,7 +773,7 @@ h2 {
     }
 
     .benefit-item img {
-        width: 400px;
+        width: 300px;
     }
 
     .review blockquote img {
